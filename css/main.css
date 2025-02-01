@@ -18,6 +18,12 @@ section {
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
+    /* jontes additions(incase you wanna know how i fucked up) */
+    padding: 2rem;
+    border: 2px solid #333;
+    border-radius: 1rem;
+    margin-left: 11rem;
+    margin-right: 11rem;
 }
 
 #home {
