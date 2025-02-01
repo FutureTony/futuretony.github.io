@@ -1,0 +1,24 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.bottomItems {
+    margin: 10px 0;
+}
+
+#footerName a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+#footerButtons a {
+    margin: 0 10px;
+}
+
+#footerButtons img {
+    max-width: 5%;
+}
