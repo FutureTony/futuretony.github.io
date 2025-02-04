@@ -1,11 +1,12 @@
 body {
-    background-color: #f4f4f4;
-    color: #333;
+    /* jontes dumbass colorshift */
+    /*background-color: rgb(17,31,38);*/
+    background-color: #1d2d38;
+    color: #C9F0FF;
 }
 
 main {
     margin: 0 auto;
-    width: 100vw;
 }
 
 section {
@@ -19,11 +20,11 @@ section {
     align-items: center;
     margin-top: 2rem;
     /* jontes additions(incase you wanna know how i fucked up) */
-    padding: 2rem;
-    border: 2px solid #333;
+    /*padding: 2rem;*/
+    /*border: 2px solid #000000; */
     border-radius: 1rem;
-    margin-left: 11rem;
-    margin-right: 11rem;
+   /* margin-left: 5rem;
+    margin-right: 5rem;*/
 }
 
 #home {
@@ -31,6 +32,10 @@ section {
     flex-direction: row;
     justify-content: center;
     width: 80vw;
+    /*background-color: #444444;*/
+    background-color: #39475a;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 #leftHome {
@@ -38,14 +43,19 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 40vw;
+    width: 20vw;
+
+}
+#leftHome img {
+    max-height: 400px;
+    
 }
 
 #rightHome {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 40vw;
+    width: 60vw;
 }
 
 
@@ -72,14 +82,23 @@ section {
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
+    margin-bottom: 10%;
 }
 
 .project {
-    background-color: #fff;
+    /*background-color: #444444;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #39475a;
+    color: #C9F0FF;
     padding: 20px;
     margin-bottom: 20px;
     width: 30vw;
     border-radius: 5px;
+    /* jontes dumb addition */
+    /*border: 2px solid #C9F0FF; */ 
+    height: 100%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -96,12 +115,17 @@ section {
     border-radius: 1rem;
     border: #333 solid 1px;
 }
+.topProject {
+    height: fit-content;
+}
 
 .project p {
+    display: flex;
     font-size: 1em;
     line-height: 1.6;
     text-align: center;
 }
+
 
 .projectAnchor {
     text-decoration: none;

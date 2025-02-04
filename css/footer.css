@@ -1,8 +1,10 @@
 footer {
-    background-color: #333;
+    background-color: rgb(17, 23, 31);
     color: #fff;
     padding: 20px;
     text-align: center;
+    /* what my dumbass added */
+    /* border: 1px solid #9298da; */
 }
 
 .bottomItems {

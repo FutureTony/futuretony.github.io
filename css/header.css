@@ -7,11 +7,16 @@ html, body {
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #222;
-    color: #fff;
+    /* just playing with the colors */
+    /*background-color: #141414; */
+    background-color:  rgb(17, 23, 31);
+    /*color: #fff;*/
+    color: #71B6D9ff;
     padding: 10px 0;
     text-align: center;
     height: 4rem;
+    /* my border addition */
+    
 }
 
 .topItems {
@@ -34,7 +39,7 @@ header {
 }
 
 #headerName a:hover{
-    background-color: #555;
+    background-color: #4F85ACff;
 }
 
 #headerButtons {
@@ -56,5 +61,5 @@ header {
 }
 
 #headerButtons a:hover{
-    background-color: #555;
+    background-color: #4F85ACff;
 }
