@@ -1,30 +1,35 @@
 // you can add more projects here
 const projects = [
     {
-      image: "../icons/example image.png",
-      title: "Project 1",
-      description: "This is the description for Project 1.",
+      image: "../icons/fleshboundlogo.jpg",
+      title: "Fleshbound",
+      description: "The Swedish Game Award winning Fleshbound. Fleshbound is a fast paced parkour Game made with a team of students from Futuregames. Bolstering a unique artstyle we call splatterpunk. Availible on steam for free!",
+      link: "project1.html" 
     },
     {
-      image: "../icons/example image.png",
-      title: "Project 2",
-      description: "This is the description for Project 2.",
+      image: "../icons/Project_Assembly.png",
+      title: "Project Assembly",
+      description: "Project Assembly, My passion project made with two friends of mine, is a calm story driven game made in unity, with insperation from A Short Hike & the Nordic enviorment of Sweden. Currently a Work in Progress!",
+      link: "project2.html"
     },
     {
-      image: "../icons/example image.png",
+      image: "../icons/exampleimage.png",
       title: "Project 3",
-      description: "BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA ",
+      description: "This is the description for Project 3.",
+      link: "project3.html"
     },
     {
-      image: "../icons/example image.png",
-      title: "Project 2",
-      description: "This is the description for Project 2.",
+      image: "../icons/exampleimage.png",
+      title: "Project 4",
+      description: "This is the description for Project 4.",
+      link: "project4.html"
     }
   ];
   
   function createProjectDiv(project) {
-    const projectDiv = document.createElement("div");
+    const projectDiv = document.createElement("a");
     projectDiv.classList.add("project");
+    projectDiv.href = project.link; 
   
     const img = document.createElement("img");
     img.src = project.image;

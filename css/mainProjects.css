@@ -1,0 +1,159 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*
+    width: 100vw;
+    */
+    width: 96vw;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #1d2d38;
+}
+.bottomBorder {
+    border-bottom: black solid 4px;
+
+}
+
+#firstProjectSection {
+    background-color: #39475a;
+    color: #C9F0FF;
+    width: 75vw;
+
+}
+
+#projectTitle {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem; 
+}
+
+#secondProjectSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    width: 75vw;
+}
+
+#projectShowcase {
+    min-width: 100%;
+
+}
+
+#thirdProjectSection {
+    background-color: #39475a;
+    color: #C9F0FF;
+    width: 75vw;
+    display: flex;
+
+}
+
+#contributions h2 {
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+}
+
+#contributions {
+    width: 40%;
+    border-right: 3px solid black;
+}
+#contributions li {
+    list-style-type: none;
+    margin-bottom: 3rem;
+}
+
+#overview {
+    width: 60%;
+}
+
+#overview h2 {
+    text-align: center;
+    font-style: italic;
+}
+
+#overview p {
+    width: 100%;
+    text-align: start;
+    padding: 1rem 6% 1rem 6%;
+}
+
+#fourthProjectSection {
+    background-color: #39475a;
+    color: #C9F0FF;
+    width: 75vw;
+}
+#fourthProjectSection h2 {
+    text-align: center;
+    padding-bottom: 3rem;
+    font-style: italic;
+}
+#fourthProjectSection p {
+    width: 80%;
+    text-align: start;
+    padding: 1rem 6% 1rem 6%;
+}
+
+#fifthProjectSection {
+    background-color: #39475a;
+    color: #C9F0FF;
+    width: 75vw;
+}
+
+#sixthProjectSection {
+    background-color: #39475a;
+    color: #C9F0FF;
+    width: 75vw;
+}
+#sixthProjectSection h2 {
+    text-align: center;
+    padding-bottom: 3rem;
+    font-style: italic;
+}
+#sixthProjectSection p {
+    width: 80%;
+    text-align: start;
+    padding: 1rem 6% 1rem 6%;
+}
+#sixthProjectSection h3 {
+    text-align: left;
+    padding-bottom: 1rem;
+    font-style: italic;
+    padding: 1rem 6% 1rem 6%;
+}
+
+#seventhProjectSection {
+    background-color: #39475a;
+    color: #C9F0FF;
+    width: 75vw;
+}
+
+#eigthProjectSection {
+    background-color: #39475a;
+    color: #C9F0FF;
+    width: 75vw;
+}
+#eigthProjectSection h2 {
+    text-align: center;
+    padding-bottom: 3rem;
+    font-style: italic;
+}
+#eigthProjectSection p {
+    width: 80%;
+    text-align: start;
+    padding: 1rem 6% 1rem 6%;
+}
+#eigthProjectSection h3 {
+    text-align: left;
+    padding-bottom: 1rem;
+    font-style: italic;
+    padding: 1rem 6% 1rem 6%;
+}
+#ninthProjectSection {
+    background-color: #39475a;
+    color: #C9F0FF;
+    width: 75vw;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="../css/mainProjects.css">
+    <link rel="stylesheet" href="../css/slideshow.css">
+</head>
+<body>
+    <header>
+        <div id="headerName" class="topItems">
+            <a href="../index.html">
+                Jonathan's Portfolio
+            </a>
+        </div>
+
+        <div id="headerButtons" class="topItems">
+            <a href="../index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="../CV/Jonathan-Ebsen-Mäensivu-FlowCV-Resume-20250206.pdf" target="_blank">CV</a>
+        </div>
+    </header>
+
+    <main>
+        <div id="firstProjectSection" class="bottomBorder">
+            <h1 id="projectTitle">
+                FleshBound
+            </h1>
+        </div>
+        <div id="secondProjectSection" class="bottomBorder">
+            <img id="projectShowcase" src="../icons/Fleshbound/FleshboundGif.gif" alt="Project Showcase Gif/Image">
+        </div>
+        <div id="thirdProjectSection" class="bottomBorder">
+            <div id="contributions">
+                <h2>Main Addition</h2>
+                <ul>
+                    <li>1. Highlight Component</li>
+                    <li>2. Save System</li>
+                </ul>
+            </div>
+            <div id="overview">
+                <h2>Overview</h2>
+                <p>
+                    Unreal Engine 5
+                    <br><br>
+                    C++
+                    <br><br>
+                    Blueprints
+                </p>
+            </div>
+        </div>
+        <div id="fourthProjectSection" class="bottomBorder">
+            <h2>Highlight Component</h2>
+            <p>The idea behind the Highlight Component is to highlight specific objects when hovering over them. Initially, we considered using a line trace (raycast) to check an object's tag. However, this required designers to manually assign tags to each object, and the tags had to be spelled consistently every time—any typo or variation would break the system, increasing the chances of errors. Instead, we opted for a Blueprint Component check because different objects require different highlight colors. By using a component-based approach, we avoid writing multiple if statements for each tag. Instead, we simply check if an object has the component and let the component determine the appropriate color.</p>
+            
+        </div>
+
+        <div id="fifthProjectSection" class="bottomBorder">
+            <div class="slideshow-container">
+                <div class="arrow left-arrow">&#10094;</div>
+                <div class="slides">
+                      
+                    <div id="slide" class="slide">
+                        <img src="../icons/Fleshbound/Code/FleshBoundCode1.png" alt="Code Snippet">
+                    </div>
+                    <div id="slide" class="slide">
+                        <img src="../icons/Fleshbound/Code/FleshBoundCode2.png" alt="Code Snippet">
+                    </div>
+                    <div id="slide" class="slide">
+                        <img src="../icons/Fleshbound/Code/FleshBoundcode3.png" alt="Code Snippet">
+                    </div> 
+                    
+                </div>
+                <div class="arrow right-arrow">&#10095;</div>
+            </div>
+        </div>
+
+    <script src="../js/slideshow.js"></script>
+</body>
+</html>

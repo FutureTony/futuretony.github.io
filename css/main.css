@@ -48,6 +48,8 @@ section {
 }
 #leftHome img {
     max-height: 400px;
+    border-radius: 1rem;
+    box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.5);
     
 }
 
@@ -114,6 +116,8 @@ section {
     margin-bottom: 10px;
     border-radius: 1rem;
     border: #333 solid 1px;
+    box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.5);
+
 }
 .topProject {
     height: fit-content;

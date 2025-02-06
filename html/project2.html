@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="../css/mainProjects.css">
+    <link rel="stylesheet" href="../css/slideshow.css">
+</head>
+<body>
+    <header>
+        <div id="headerName" class="topItems">
+            <a href="../index.html">
+                Jonathan's Portfolio
+            </a>
+        </div>
+
+        <div id="headerButtons" class="topItems">
+            <a href="../index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="../CV/Jonathan-Ebsen-Mäensivu-FlowCV-Resume-20250206.pdf" target="_blank">CV</a>
+        </div>
+    </header>
+    <main>
+        <div id="firstProjectSection" class="bottomBorder">
+            <h1 id="projectTitle">
+                Project Assembly
+            </h1>
+        </div>
+        <div id="secondProjectSection" class="bottomBorder">
+            <img id="projectShowcase" src="../icons/Project_Assembly/GameDemo_PA.gif" alt="Project Showcase Gif/Image">
+        </div>
+        <div id="thirdProjectSection" class="bottomBorder">
+            <div id="contributions">
+                <h2>Main Addition</h2>
+                <ul>
+                    <li>1. Dialouge System</li>
+                    <li>2. Inventory System</li>
+                </ul>
+            </div>
+            <div id="overview">
+                <h2>Overview</h2>
+                <p>
+                    Unity
+                    <br><br>
+                    C#
+                    <br><br>
+                    Visual Studio
+                </p>
+            </div>
+        </div>
+        <div id="fourthProjectSection" class="bottomBorder">
+            <h2>Dialouge System</h2>
+            <p>The dialogue system is essential for our project as we wanted to tell the story of the game through NPC interactions. So to Solve this I created a dialogue system that allows the player to interact with NPCs and read their dialogue. The system is composed of three main scripts: NPCInteract.cs, ChatBubble.cs, and Interact.cs.<br>
+                The purpose of the NPCInteract script is to display a dialouge box which will rotate to face the player camera to ensure the dialouge can be read.<br>
+                The ChatBubble script is responsible for displaying the text within the dialouge box, it uses scriptable objects with different speach options to easily customise dialouge options.<br>
+                The Interact script is responsible for the player to interact with the NPC, it uses a Spherecollider to detect the NPC and display the dialouge box when the interact button is pressed.
+                </p>
+            
+        </div>
+
+        <div id="fifthProjectSection" class="bottomBorder">
+            <div class="slideshow-container">
+                <div class="arrow left-arrow">&#10094;</div>
+                <div class="slides">
+                      
+                    <div id="slide" class="slide">
+                        <img src="../icons/Code/Code3.png" alt="Code Snippet">
+                    </div>
+                    <div id="slide" class="slide">
+                        <img src="../icons/Code/Code4.png" alt="Code Snippet">
+                    </div>
+                    <div id="slide" class="slide">
+                        <img src="../icons/Code/Code5.png" alt="Code Snippet">
+                    </div> 
+                    
+                </div>
+                <div class="arrow right-arrow">&#10095;</div>
+            </div>
+        </div>
+
+    <script src="../js/slideshow.js"></script>
+
+    <div id="sixthProjectSection" class="bottomBorder">
+        <h2>Inventory System</h2>
+        <p>The Inventory System is a thing I have always been curious about as it can be made in so many ways. So I decided to take on the challenge of creating one for our project.<br>
+            My Inventory System is composed of two parts the Visual & the Logical part. The visual part is comprised of two scripts, and the logical is comprised of four.<br>
+            
+        </p>
+        <h3>Logical Part</h3>
+        <p>
+            The four logical scripts are Interact.cs (same as the dialogue system), ItemDataSO.cs, ItemDataCarrier.cs, and Inventory.cs.<br>
+            the Interact.cs script is responsible for the player to interact with the item, it uses a raycast to detect the item and add it to the inventory when the interact button is pressed.<br>
+            The ItemDataSO script is a scriptable object that holds the data of the item's, such as item name,item amount,item description, etc.<br>
+            The ItemDataCarrier script is responsible for attaching the Scriptable-object data to a physical object so that worldspace objects can hold their item data.<br>
+            The Inventory script is the players inventory, its a list of scriptable-object data so that once the player interacts with an item the data will be added to the inventory.
+        </p>
+        
+    </div>
+    <div id="seventhProjectSection" class="bottomBorder">
+        <div class="slideshow-container">
+            <div class="arrow left-arrow">&#10094;</div>
+            <div class="slides">
+                  
+                <div id="slide" class="slide">
+                    <img src="../icons/Code/Code1.png" alt="Code Snippet">
+                </div>
+                <div id="slide" class="slide">
+                    <img src="../icons/Code/Code2.png" alt="Code Snippet">
+                </div>
+                <div id="slide" class="slide">
+                    <img src="../icons/Code/Code6.png" alt="Code Snippet">
+                </div> 
+                <div id="slide" class="slide">
+                    <img src="../icons/Code/Code7.png" alt="Code Snippet">
+                </div>
+            </div>
+            <div class="arrow right-arrow">&#10095;</div>
+        </div>
+    </div>
+
+    <script src="../js/slideshow.js"></script>
+
+    <div id="eigthProjectSection" class="bottomBorder">
+        
+        <h3>Visual Part</h3>
+        <p>
+            The two visual scripts are the InventoryMenu.cs and the ItemBoxUI.cs<br>
+            The purpose the the inventory menu is to display every object in the inventory by creating a itemboxes for each item in the inventory.<br>
+            The ItemBoxUI script is responsible for displaying the itembox, it uses the itemdata from the inventory to display the itembox with the correct item data.
+        </p>
+        
+    </div>
+    <div id="ninthProjectSection" class="bottomBorder">
+        <div class="slideshow-container">
+            <div class="arrow left-arrow">&#10094;</div>
+            <div class="slides">
+                  
+                <div id="slide" class="slide">
+                    <img src="../icons/Code/Code9.png" alt="Code Snippet">
+                </div>
+                <div id="slide" class="slide">
+                    <img src="../icons/Code/Code8.png" alt="Code Snippet">
+                </div>
+            </div>
+            <div class="arrow right-arrow">&#10095;</div>
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>

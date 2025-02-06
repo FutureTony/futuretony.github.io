@@ -3,7 +3,11 @@ body {
     margin: 0;
     background-color: #1d2d38;
   }
-  
+
+  a {
+    text-decoration: none;
+    }
+
   .project {
     display: flex;
     align-items: flex-start;
@@ -13,6 +17,14 @@ body {
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+
+  }
+
+  .project:hover {
+    transform: translateY(-5px);
+    background-color: #303b4d;
+
   }
   
   .project img {
@@ -37,3 +49,4 @@ body {
     color: #C9F0FF;
     margin: 0;
   }
+
