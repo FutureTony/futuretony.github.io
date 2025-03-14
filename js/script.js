@@ -13,9 +13,9 @@ const projects = [
       link: "project2.html"
     },
     {
-      image: "../icons/exampleimage.png",
-      title: "Project 3",
-      description: "This is the description for Project 3.",
+      image: "../icons/SourSecurity/SourSecurityLogo.png",
+      title: "Sour Security",
+      description: "The Fourth game project durring my time at futuregames. Sour Security is a chaotic assasination game where you recently got fired from work and are in turn trying to get revenge on former coworkers. The game is done in unreal engine 5 and took around 4 weeks to do.",
       link: "project3.html"
     },
     {

@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="../css/mainProjects.css">
+    <link rel="stylesheet" href="../css/slideshow.css">
 </head>
 <body>
     <header>
@@ -18,10 +20,108 @@
         <div id="headerButtons" class="topItems">
             <a href="../index.html">Home</a>
             <a href="projects.html">Projects</a>
-            <a href="../CV/Jonathan-Ebsen-Mäensivu-FlowCV-Resume-20250205.pdf" target="_blank">CV</a>
+            <a href="../CV/MittGameProgrammerCV.pdf" target="_blank">CV</a>
         </div>
     </header>
+    <main>
+        <div id="firstProjectSection" class="bottomBorder">
+            <h1 id="projectTitle">
+                Sour Security
+            </h1>
+        </div>
+        <div id="secondProjectSection" class="bottomBorder">
+            <img id="projectShowcase" src="../icons/SourSecurity/SoursecurityImage2.jpg" alt="Project Showcase Image">
+        </div>
+        <div id="thirdProjectSection" class="bottomBorder">
+            <div id="contributions">
+                <h2>Main Addition</h2>
+                <ul>
+                    <li>1. Interaction System</li>
+                    <li>2. Save System</li>
+                </ul>
+            </div>
+            <div id="overview">
+                <h2>Overview</h2>
+                <p>
+                    Unreal Engine
+                    <br><br>
+                    C++
+                    <br><br>
+                    Blueprints
+                </p>
+            </div>
+        </div>
+        <div id="fourthProjectSection" class="bottomBorder">
+            <h2>Interaction System</h2>
+            <p> The Interaction system was a central part of the game as it was the main interaction between the player and the world. The system is composed of the script UComponentActor.cpp.<br>
+                The UComponentActor script works by on button press it will fire a raycast from the player camera and check if the object hit is interactable, if it is it will call the apropreate event on the target object.<br>
+                The reason why I opted for this system was that it gave the designers the freedom to customise the events that would trigger without needing to know how to code, as all the interactions where done in blueprints.<br>
+                </p>
+            
+        </div>
 
+        <div id="fifthProjectSection" class="bottomBorder">
+            <div class="slideshow-container">
+                <div class="arrow left-arrow">&#10094;</div>
+                <div class="slides">
+                      
+                    <div id="slide" class="slide">
+                        <img src="../icons/SourSecurity/Code/SoursecurityInteraction1.png" alt="Code Snippet">
+                    </div>
+                    <div id="slide" class="slide">
+                        <img src="../icons/SourSecurity/Code/SoursecurityInteraction2.png" alt="Code Snippet">
+                    </div>
+                    <div id="slide" class="slide">
+                        <img src="../icons/SourSecurity/Code/SoursecurityInteraction3.png" alt="Code Snippet">
+                    </div> 
+                    
+                </div>
+                <div class="arrow right-arrow">&#10095;</div>
+            </div>
+        </div>
+
+    <script src="../js/slideshow.js"></script>
+
+    <div id="sixthProjectSection" class="bottomBorder">
+        <h2>Save System</h2>
+        <p>
+            The Save system although not as central as the Interaction system, it still had its purpose.<br>
+            The Save system was supposed to be a simple save system that would just keep track of what level the player had reached, but after some thought the team decided it needed to save the gamestate as well.<br>
+            The Save system is made solely in blueprints. It uses a separete game instance, so that when the game got saved I would override all the data in the previous game instance with the current game data.<br>
+        </p>
+    </div>
+    <div id="seventhProjectSection" class="bottomBorder">
+        <div class="slideshow-container">
+            <div class="arrow left-arrow">&#10094;</div>
+            <div class="slides">
+                  
+                <div id="slide" class="slide">
+                    <img src="../icons/SourSecurity/Blueprints/SoursecuritBlueprint1.png" alt="Code Snippet">
+                </div>
+                <div id="slide" class="slide">
+                    <img src="../icons/SourSecurity/Blueprints/SoursecuritBlueprint2.png" alt="Code Snippet">
+                </div>
+                <div id="slide" class="slide">
+                    <img src="../icons/SourSecurity/Blueprints/SoursecuritBlueprint3.png" alt="Code Snippet">
+                </div> 
+                <div id="slide" class="slide">
+                    <img src="../icons/SourSecurity/Blueprints/SoursecuritBlueprint4.png" alt="Code Snippet">
+                </div>
+                <div id="slide" class="slide">
+                    <img src="../icons/SourSecurity/Blueprints/SoursecuritBlueprint5.png" alt="Code Snippet">
+                </div>
+                <div id="slide" class="slide">
+                    <img src="../icons/SourSecurity/Blueprints/SoursecuritBlueprint6.png" alt="Code Snippet">
+                </div>
+                <div id="slide" class="slide">
+                    <img src="../icons/SourSecurity/Blueprints/SoursecuritBlueprint7.png" alt="Code Snippet">
+                </div>
+            </div>
+            <div class="arrow right-arrow">&#10095;</div>
+        </div>
+    </div>
+
+    <script src="../js/slideshow.js"></script>
 
 
 </body>
